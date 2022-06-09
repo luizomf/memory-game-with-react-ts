@@ -41,7 +41,7 @@ export const Grid = () => {
       // The card is not the one the user clicked
       if (clickedCard.cardId !== cardId) return clickedCard;
 
-      // That card is already flipped
+      // The card is already flipped
       if (clickedCard.flipped) return clickedCard;
 
       // Resets wrong cards
